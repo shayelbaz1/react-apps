@@ -6,6 +6,7 @@ var extractPlugin = new ExtractTextPlugin({
 });
 
 module.exports = {
+  resolve: ['', '.js', '.jsx'],
   entry: path.resolve('./src/js/app.js'),
   output: {
     path: path.resolve(__dirname, 'dist'),
