@@ -12,7 +12,6 @@ class App extends Component {
         return (
             <Provider store={store()}>
                 <Router>
-                    test1.0.1
                     <Routes />
                 </Router>
             </Provider>
